@@ -1,0 +1,154 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    color: #333333;
+}
+
+header {
+    background-color: #00796B;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('https://media.istockphoto.com/id/833056240/photo/empty-wood-table-space-platform-and-fitness-gym-background.webp?b=1&s=170667a&w=0&k=20&c=KAf9xV4UT_CiENdYLf66WmoZffufn8D7jDzWuHyd2W4=') no-repeat center center;
+    background-size: cover;
+    padding: 2em 0;
+    text-align: center;
+    color: rgb(54, 54, 54);
+}
+
+#hero img {
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+
+#classes {
+    padding: 2em;
+    background-color: #8BC34A;
+    text-align: center;
+}
+
+#classes h2 {
+    color: white;
+}
+
+#classes .class {
+    margin: 1em 0;
+}
+
+#classes img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#classes .class img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 0.5em;
+}
+
+#trainers {
+    padding: 2em;
+    background-color: #c9b16b;
+    text-align: center;
+}
+
+#trainers h2 {
+    color: white;
+}
+
+#trainers .trainer {
+    margin: 1em 0;
+}
+
+#trainers img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#trainers .trainer img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 0.5em;
+}
+
+#contact {
+    padding: 2em;
+    background-color: #8BC34A;
+    text-align: center;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact form {
+    margin-top: 1em;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact textarea {
+    padding: 0.5em;
+    width: 60%;
+    margin: 0.5em 0;
+}
+
+#contact button {
+    padding: 0.5em 1em;
+    background-color: #00796B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+footer {
+    background-color: #033832;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+}
+
+.social-media {
+    margin-top: 1em;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 0.5em;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.social-media a:hover {
+    color: #FF7043;
+}
